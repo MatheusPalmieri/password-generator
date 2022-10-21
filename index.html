@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <link href="https://unpkg.com/css.gg/icons/all.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/css.gg/icons/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Password Generator</h1>
+
+      <div>
+        <label for="range">Select the size of password.</label>
+        <div class="select">
+          <div class="number">
+            <div id="number"></div>
+          </div>
+          <input
+            type="range"
+            name="range"
+            class="range"
+            id="range"
+            min="8"
+            max="32"
+            step="1"
+            value="8"
+          />
+        </div>
+
+        <button id="generator" class="generator">Generate</button>
+      </div>
+
+      <div class="result-container">
+        <div class="password-result">
+          <input
+            type="text"
+            name="result"
+            id="result"
+            readonly
+            value="b@GO$9p8"
+          />
+
+          <button id="copy" title="Copy password">
+            <i class="gg-copy"></i>
+          </button>
+        </div>
+
+        <div class="successfully">
+          <p>Copied!</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
