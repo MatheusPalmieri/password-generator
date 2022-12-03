@@ -23,8 +23,6 @@
  <a href="https://matheuspalmieri.github.io/password-generator/">Site Do Projeto</a>
 </p>
 
-<br/>
-
 Gnerate Screen
 <img src="assets/generate.png" width="1280px" align="center">
 
