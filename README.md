@@ -14,7 +14,15 @@
  <a href="#autor">Autor</a>
 </p>
 
-<!-- <img src="images/imagem.png" width="1366px" align="center"> -->
+---
+
+Gnerate Screen
+<img src="image/generate.png" width="1280px" align="center">
+
+<br/>
+
+Finish Screen
+<img src="image/finish.png" width="1280px" align="center">
 
 ---
 
