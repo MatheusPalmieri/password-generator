@@ -17,12 +17,12 @@
 ---
 
 Gnerate Screen
-<img src="image/generate.png" width="1280px" align="center">
+<img src="assets/generate.png" width="1280px" align="center">
 
 <br/>
 
 Finish Screen
-<img src="image/finish.png" width="1280px" align="center">
+<img src="assets/finish.png" width="1280px" align="center">
 
 ---
 
